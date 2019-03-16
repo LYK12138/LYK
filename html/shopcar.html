@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>购物车-网易考拉</title>
+        <link rel="stylesheet" href="../css/cssreset.css">
+        <link rel="stylesheet" href="../css/shopcar.css">
+        <link rel="shortcut icon" href="../images/favicon.ico">
+    </head>
+    <body>
+		<nav class="top_nav">
+			<div class="nav_area">
+				<p>
+					<span>考拉欢迎你！</span>
+					<a href="login.html">登录</a>
+					<a href="register.html">免费注册</a>
+					<a href="About phone.html" class="lyk-ewa">手机考拉<span class="ewspan">
+							<img src="../images/lyk-ew.png" alt=""><strong>下载APP<br>领取1000元新人礼包</strong>
+							<span class="lyk-jiaobiao"></span>
+						</span>
+					</a>
+				</p>
+			<ul class="clearfix">
+					<li class="top_nav_left">
+						<a href="">每日签到</a>
+					</li>
+					<li class="top_nav_left">
+						<a href="helpcenter.html">我的订单</a>
+					</li>
+					<li class="top_nav_right">
+						<a href="helpcenter.html">个人中心</a>
+						<!-- <img src="../images/lyk_sj.png" alt=""> -->
+						<i></i>
+						<div>
+							<ol>
+								<li><a href="helpcenter.html">我的优惠劵</a></li>
+								<li><a href="helpcenter.html">我的红包</a></li>
+								<li><a href="helpcenter.html">我的考拉豆</a></li>
+								<li><a href="helpcenter.html">账号管理</a></li>
+								<li><a href="helpcenter.html">实名认证</a></li>
+								<li><a href="helpcenter.html">我收藏的产品</a></li>
+								<li><a href="helpcenter.html">我关注的品牌</a></li>
+								<li><a href="helpcenter.html">售后管理</a></li>
+							</ol>
+						</div>
+					</li>
+					<li class="top_nav_right">
+						<a href="helpcenter.html">客户服务</a>
+						<!-- <img src="../images/lyk_sj.png" alt="" > -->
+						<i></i>
+						<div>
+							<ol>
+								<li><a href="helpcenter.html">联系客服</a></li>
+								<li><a href="helpcenter.html">帮助中心</a></li>
+								<li><a href="helpcenter.html">知识产权保护</a></li>
+								<li><a href="helpcenter.html">规则中心</a></li>
+								<li><a href="helpcenter.html">我关注的品牌</a></li>
+								<li><a href="helpcenter.html">售后管理</a></li>
+							</ol>
+						</div>
+					</li>
+					<li class="top_nav_right">
+						<a href="helpcenter.html">充值中心</a>
+						<!-- <img src="../images/lyk_sj.png" alt="" > -->
+						<i></i>
+						<div>
+							<ol>
+								<li><a href="helpcenter.html">话费流量</a></li>
+								<li><a href="helpcenter.html">游戏充值</a></li>
+								<li><a href="helpcenter.html">Store充值卡</a></li>
+							</ol>
+						</div>
+					</li>
+					<li class="top_nav_right">
+						<a href="gaozhishu.html">消费者权益</a>
+						<!-- <img src="../images/lyk_sj.png" alt="" > -->
+						<i id="i4"></i>
+						<div>
+							<ol>
+								<li><a href="gaozhishu.html">消费者告知书</a></li>
+								<li><a href="gaozhishu.html">消费投诉公示</a></li>
+							</ol>
+						</div>
+					</li>
+					<li class="top_nav_right">
+						<a href="gaozhishu.html">更多</a>
+						<!-- <img src="../images/lyk_sj.png" alt="" > -->
+						<i id="i5"></i>
+						<div>
+							<ol>
+								<li><a href="gaozhishu.html">收藏本站</a></li>
+								<li><a href="gaozhishu.html">新浪微博</a></li>
+								<li><a href="gaozhishu.html">微信公众号</a></li>
+								<li><a href="gaozhishu.html">易信公众号</a></li>
+								<li><a href="gaozhishu.html">招商合作</a></li>
+							</ol>
+						</div>
+					</li>
+				</ul>
+
+
+
+
+			</div>
+		</nav>
+		
+		<header>
+			<h1><a href="../index.html"><img src="../images/logo.png" alt="网易考拉logo" width="210px" title="网易考拉logo"></a></h1>
+		</header>
+		
+
+		<div class="middle">
+			<div class="mycar">
+				<h3 class="lcar">
+					<span class="lcarl">我的购物车&nbsp1</span>
+					<span class="lcarr2">
+						<div class="lykdiv">
+							不加载任何数据:<br/>
+							<span>*</span> 省
+							<select id="selProvince" style="width:80px" name="selProvince">
+							</select>
+							<span>*</span> 市
+							<select id="selCity" name="selCity">
+							</select>
+							<span>*</span> 县/区
+							<select id="selArea" name="selArea">
+							</select>
+							&nbsp;
+							<input type=button onclick="AreaSelector({selProvinceId:'selProvince',
+										selCityId:'selCity',
+										selAreaId:'selArea'}).initProvince(4,3,22)" value="Load">
+							&nbsp;
+							<input type=button onclick="a.initProvince(4,3,22)" value="Load2">
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+						</div>
+						<select id="selProvince2" style="width:80px" name="selProvince2">
+						</select>省
+						<select id="selCity2" name="selCity2">
+						</select>市
+						<select id="selArea2" name="selArea2">
+						</select>县/区
+					</span>
+					<span class="lcarr1">
+						配送至
+					</span>
+				</h3>
+				<div class="card1">
+					<input id="chck1" class="chk" checked="checked" type="checkbox">
+					<span>全选</span>
+					<ul class="ful">
+						<li class="li1">商品信息</li>
+						<li class="li2">单价（元）</li>
+						<li class="li3">数量</li>
+						<li class="li4">金额（元）</li>
+						<li class="li5">操作</li>
+					</ul>
+				</div>
+
+
+
+				<div class="card2">
+					<input class="chk" id="chck2" checked="checked" type="checkbox">
+					<span class="littleb">自营</span>
+					<span class="little2">自营国内仓</span>
+				</div>
+
+
+
+
+
+				<div class="card3">
+					<div class="d3_1">
+						<span class="d3_1span1">换购</span>
+						<p>活动商品已满100元 可参与换购</p>
+						<span class="d3_1span2">点击换购</span>
+						<a href="S_sopping.html">再逛逛></a>
+					</div>
+					<div class="d3_2">
+						<div class="d3_21">
+							<input class="chk" id="chck3" checked="checked" type="checkbox">
+						</div>
+						<div class="d3_22">
+							<a href="">
+								<img src="../images/car802.jpg" alt="">
+							</a>
+							<div class="wenben">
+								<p class="wenbenB">Apple 苹果 iPhone8 Plus (A1864) 64GB 移动联通电信4G手机 国内行货</p>
+								<p class="wenbenL"><span>7</span>不支持7天无理由退货</p>
+								<span class="tj">特价</span>
+								<span class="xfw">选服务</span>
+							</div>
+							<div class="wenben2">
+								<p>颜色：银色</p>
+								<p>内存容量：64GB</p>
+							</div>
+						</div>
+						<div class="d3_23">
+							<p class="d3_231">5999.00</p>
+							<p class="d3_232">4799.00</p>
+						</div>
+						<div class="d3_24">
+							<span>
+								<span class="lyk-jl">-</span>
+								<input type="text" readonly="readonly"  class="ipt" min="1" autocomplete="off" name="tempBuyAmount" data-value="6" max="12"
+								value='1'>
+								<span class="lyk-jr">+</span>
+							</span>
+						</div>
+						<div class="d3_25">
+							<span class="d3JG1">4799.00</span>
+						</div>
+						<div class="d3_26">
+							<a href="">删除</a>
+							<span>移入我的收藏</span>
+						</div>
+					</div>
+					<div class="d3_3">
+						<p>活动优惠：-￥0.00&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp商品应付总计：￥<span class="d3JG1">4799.00</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp预估税费：￥0.00</p>
+					</div>
+				</div>
+
+
+
+
+
+
+				<div class="card4">
+					<div class="d4l">
+						<input  id="chck4" class="chk" checked="checked" type="checkbox">
+						<span>全选</span>
+						<span><a href="">删除选中商品</a></span>
+						<div class="d4lr">
+							<p class="hongwenzi">已选商品<span>&nbsp1&nbsp</span>件&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp总价(不含运费)：<span class="d3JG1">￥4799.00</span></p><br>
+							<p class="hwenzi">活动优惠：-￥0.00商品应付总计：￥4799.00&nbsp&nbsp&nbsp&nbsp&nbsp商品税费（不含运费税）：￥0.00</p>
+						</div>
+					</div>
+					<div class="d4r">去结算</div>
+				</div>
+
+
+
+
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<div class="b3">
+				<h3 class="b3h3">
+					<p class="bigp">最佳搭配</p>
+					<p class="p2">根据你的购物车商品推荐</p>
+					<p class="p3">< 1/4 ></p>
+				</h3>
+				<div class="sp5">
+					<ul class="sp5ul">
+						<li class="sp5li">
+							<a href="wpxq.html">
+								<img src="../images/ear800.jpg" alt="">
+							</a>
+							<div class="liwenzi">
+								<a href="wpxq.html" class="wenzi">Apple 苹果 AirPods 蓝牙无线耳机（MMEF2CH/A）</a>
+								<span class="bp">￥1199</span>
+								<span class="lp">￥1276</span>
+								<a href="" class="pj">7333人已评价</a>
+							</div>
+						</li>
+						<li class="sp5li">
+							<a href="wpxq.html">
+								<img src="../images/shoujike.jpg" alt="">
+							</a>
+							<div class="liwenzi">
+								<a href="wpxq.html" class="wenzi">考拉工厂店 进口液态硅胶防摔苹果手机壳</a>
+								<span class="bp">￥45</span>
+								<span class="lp">￥69</span>
+								<a href="" class="pj">1623人已评价</a>
+							</div>
+						</li>
+						<li class="sp5li">
+							<a href="wpxq.html">
+								<img src="../images/JP.jpg" alt="">
+							</a>
+							<div class="liwenzi">
+								<a href="wpxq.html" class="wenzi">Logitech 罗技 K480多功能蓝牙键盘 黑</a>
+								<span class="bp">￥159</span>
+								<span class="lp">￥199</span>
+								<a href="" class="pj">186人已评价</a>
+							</div>
+						</li>
+						<li class="sp5li">
+							<a href="wpxq.html">
+								<img src="../images/shoujike.jpg" alt="">
+							</a>
+							<div class="liwenzi">
+								<a href="wpxq.html" class="wenzi">考拉工厂店 进口液态硅胶防摔苹果手机壳</a>
+								<span class="bp">￥45</span>
+								<span class="lp">￥69</span>
+								<a href="" class="pj">1623人已评价</a>
+							</div>
+						</li>
+						<li class="sp5li">
+							<a href="wpxq.html">
+								<img src="../images/ear800.jpg" alt="">
+							</a>
+							<div class="liwenzi">
+								<a href="wpxq.html" class="wenzi">Apple 苹果 AirPods 蓝牙无线耳机（MMEF2CH/A）</a>
+								<span class="bp">￥1199</span>
+								<span class="lp">￥1276</span>
+								<a href="" class="pj">7333人已评价</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+
+
+			<div class="b3">
+				<h3 class="b3h3">
+					<p class="bigp">猜你喜欢</p>
+					<p class="p2">根据你的浏览记录推荐的商品</p>
+				</h3>
+				<div class="sp5">
+					<ul class="sp5ul">
+						<li class="sp5li">
+							<a href="wpxq.html">
+								<img src="../images/redphone.jpg" alt="">
+							</a>
+							<div class="liwenzi">
+								<a href="wpxq.html" class="wenzi">Apple 苹果 iPhone XR (A2108) 128GB 红色 移动联通电信4G手</a>
+								<span class="bp">￥5799</span>
+								<span class="lp">￥6999</span>
+								<a href="" class="pj">233人已评价</a>
+							</div>
+						</li>
+						<li class="sp5li">
+							<a href="wpxq.html">
+								<img src="../images/Xphone.jpg" alt="">
+							</a>
+							<div class="liwenzi">
+								<a href="wpxq.html" class="wenzi">Apple 苹果 iPhone X 64GB 移动联通电信4G手机 国内行货</a>
+								<span class="bp">￥6099</span>
+								<span class="lp">￥7099</span>
+								<a href="" class="pj">123人已评价</a>
+							</div>
+						</li>
+						<li class="sp5li">
+							<a href="wpxq.html">
+								<img src="../images/gphone.jpg" alt="">
+							</a>
+							<div class="liwenzi">
+								<a href="wpxq.html" class="wenzi">Apple 苹果 iPhone Xs Max (A2104) 256G 金色 移动联通</a>
+								<span class="bp">￥9999</span>
+								<span class="lp">￥10999</span>
+								<a href="" class="pj">433人已评价</a>
+							</div>
+						</li>
+						<li class="sp5li">
+							<a href="wpxq.html">
+								<img src="../images/Xphone.jpg" alt="">
+							</a>
+							<div class="liwenzi">
+								<a href="wpxq.html" class="wenzi">Apple 苹果 iPhone X 64GB 移动联通电信4G手机 国内行货</a>
+								<span class="bp">￥6099</span>
+								<span class="lp">￥7099</span>
+								<a href="" class="pj">123人已评价</a>
+							</div>
+						</li>
+						<li class="sp5li">
+							<a href="wpxq.html">
+								<img src="../images/redphone.jpg" alt="">
+							</a>
+							<div class="liwenzi">
+								<a href="wpxq.html" class="wenzi">Apple 苹果 iPhone XR (A2108) 128GB 红色 移动联通电信4G手</a>
+								<span class="bp">￥5799</span>
+								<span class="lp">￥6999</span>
+								<a href="" class="pj">233人已评价</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+
+
+			<div class="b3">
+				<h3 class="b3h3">
+					<p class="bigp">大家都在买</p>
+					<p class="p2">全网最热门的商品推荐</p>
+				</h3>
+				<div class="sp5">
+					<ul class="sp5ul">
+						<li class="sp5li">
+							<a href="wpxq.html">
+								<img src="../images/gphone.jpg" alt="">
+							</a>
+							<div class="liwenzi">
+								<a href="wpxq.html" class="wenzi">Apple 苹果 iPhone Xs Max (A2104) 256G 金色 移动联</a>
+								<span class="bp">￥9999</span>
+								<span class="lp">￥10999</span>
+								<a href="" class="pj">433人已评价</a>
+							</div>
+						</li>
+						<li class="sp5li">
+							<a href="wpxq.html">
+								<img src="../images/redphone.jpg" alt="">
+							</a>
+							<div class="liwenzi">
+								<a href="wpxq.html" class="wenzi">Apple 苹果 iPhone XR (A2108) 128GB 红色 移动联通电信4G手</a>
+								<span class="bp">￥5799</span>
+								<span class="lp">￥6999</span>
+								<a href="" class="pj">233人已评价</a>
+							</div>
+						</li>
+						<li class="sp5li">
+							<a href="wpxq.html">
+								<img src="../images/gphone.jpg" alt="">
+							</a>
+							<div class="liwenzi">
+								<a href="wpxq.html" class="wenzi">Apple 苹果 iPhone Xs Max (A2104) 256G 金色 移动联</a>
+								<span class="bp">￥9999</span>
+								<span class="lp">￥10999</span>
+								<a href="" class="pj">433人已评价</a>
+							</div>
+						</li>
+						<li class="sp5li">
+							<a href="wpxq.html">
+								<img src="../images/redphone.jpg" alt="">
+							</a>
+							<div class="liwenzi">
+								<a href="wpxq.html" class="wenzi">Apple 苹果 iPhone XR (A2108) 128GB 红色 移动联通电信4G手</a>
+								<span class="bp">￥5799</span>
+								<span class="lp">￥6999</span>
+								<a href="" class="pj">233人已评价</a>
+							</div>
+						</li>
+						<li class="sp5li">
+							<a href="wpxq.html">
+								<img src="../images/Xphone.jpg" alt="">
+							</a>
+							<div class="liwenzi">
+								<a href="wpxq.html" class="wenzi">Apple 苹果 iPhone X 64GB 移动联通电信4G手机 国内行货</a>
+								<span class="bp">￥6099</span>
+								<span class="lp">￥7099</span>
+								<a href="" class="pj">123人已评价</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+
+		
+		
+
+		<div class="buttom1">
+			<ul class="big4">
+				<li>
+					<div class="yuan">正</div>
+					<strong>100%正品</strong>
+					<span>正品保障 假一赔十</span>
+				</li>
+				<li>
+					<div class="yuan">低</div>
+					<strong>低价保障</strong>
+					<span>缩减中间环节 确保低价</span>
+				</li>
+				<li>
+					<div class="yuan">退</div>
+					<strong>30天无忧退货</strong>
+					<span>国内退货 售后无忧</span>
+				</li>
+				<li>
+					<div class="yuan">邮</div>
+					<strong>满88包邮</strong>
+					<span>部分特殊商品除外</span>
+				</li>
+			</ul>
+		</div>
+		<div class="buttom2">
+			<ul class="botm7">
+				<li class="rp">
+					<a href="https://www.kaola.com/" class="logo_r"></a>
+					<div class="l4">
+						<span class="sp1">关注我们</span>
+						<a href="http://weibo.com/u/5448480859" class="little1"></a>
+						<a href="" onclick="return false;" class="little2"></a>
+						<a href="" onclick="return false;" class="little3"></a>
+					</div>
+				</li>
+				<li>
+					<dl>
+						<dt>
+							<p>考拉保障</p>
+						</dt>
+						<dd>
+							<a target="_blank" href="" title="假一赔十">假一赔十</a>
+						</dd>
+						<dd>
+							<a target="_blank" href="" title="廉正监督">廉正监督</a>
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt>
+							<p>新手指南</p>
+						</dt>
+						<dd>
+							<a target="_blank" href="" title="购物流程">购物流程</a>
+						</dd>
+						<dd>
+							<a target="_blank" href="" title="支付方式">支付方式</a>
+						</dd>
+						<dd>
+							<a target="_blank" href="" title="通关税费">通关税费</a>
+						</dd>
+						<dd>
+							<a target="_blank" href="" title="常见问题">常见问题</a>
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt>
+							<p>售后服务</p>
+						</dt>
+						<dd>
+							<a target="_blank" href="" title="退货政策">退货政策</a>
+						</dd>
+						<dd>
+							<a target="_blank" href="" title="退货流程">退货流程</a>
+						</dd>
+						<dd>
+							<a target="_blank" href="" title="退款说明">退款说明</a>
+						</dd>
+						<dd>
+							<a target="_blank" href="" title="联系客服">联系客服</a>
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt>
+							<p>物流配送</p>
+						</dt>
+						<dd>
+							<a target="_blank" href="" title="配送方式">配送方式</a>
+						</dd>
+						<dd>
+							<a target="_blank" href="" title="配送服务">配送服务</a>
+						</dd>
+						<dd>
+							<a target="_blank" href="" title="运费标准">运费标准</a>
+						</dd>
+						<dd>
+							<a target="_blank" href="" title="物流跟踪">物流跟踪</a>
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt>
+							<p>关于我们</p>
+						</dt>
+						<dd>
+							<a target="_blank" href="" title="联系我们">联系我们</a>
+						</dd>
+						<dd>
+							<a target="_blank" href="" title="招商合作">招商合作</a>
+						</dd>
+						<dd>
+							<a target="_blank" href="" title="销售联盟">销售联盟</a>
+						</dd>
+						<dd>
+							<a target="_blank" href="" title="CEO邮箱">CEO邮箱</a>
+						</dd>
+					</dl>
+				</li>
+				<li class="ewm">
+					<img src="../images/ewm.png" alt="">
+					<span id="sp2">扫描下载手机版</span>
+				</li>
+			</ul>
+		</div>
+	
+
+    <script src="../js/jquery-3.3.1.js"></script>
+    <script src="../js/htmlmysql.js"></script>
+    <script src="../js/helpjs.js"></script>
+    </body>
+</html>

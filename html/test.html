@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style>
+        	i{
+        		position: absolute;
+			    right: 14px;
+			    top: 50%;
+			    margin-top: -2px;
+			    width: 0;
+			    height: 0;
+			    font-size: 0;
+			    line-height: 0;
+			    border-color: red transparent transparent;
+			    border-style: solid dashed dashed;
+			    border-width: 4px 4px 0;
+			    -webkit-transition: -webkit-transform .2s ease-in;
+			    -moz-transition: -moz-transform .2s ease-in;
+			    -ms-transition: -ms-transform .2s ease-in;
+			    -o-transition: -o-transform .2s ease-in;
+			    transition: transform .2s ease-in;
+			}
+
+
+
+
+
+			    span{
+			    	display:block;
+			    	width: 0;
+			    	height: 0;
+			    	
+			    	border:5px solid transparent;
+			    	border-bottom:5px solid black;
+			    	cursor: pointer;
+			    	transition:all 0.4s;
+			    }
+			    span:hover{
+					transform:rotate(180deg);
+					transform-origin:center 1.5px;
+					border-top:5px solid red;
+			    }
+        </style>
+    </head>
+    <body>
+    <span></span>
+    	<i></i>
+    </body>
+</html>

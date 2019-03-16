@@ -1,0 +1,1186 @@
+
+.m-loginshow .top div {
+	float: left;
+	width: 175px;
+	text-align: center;
+	cursor: pointer;
+	font-weight: bold;
+}
+.m-loginshow .top div:hover {
+	color: #e31436;
+}
+.m-loginshow .top .line {
+	position: absolute;
+	top: 17px;
+	left: 175px;
+	width: 0px;
+	height: 20px;
+	border-right: solid 1px #ddd;
+}
+.m-loginshow .bottom {
+	width: 270px;
+	height: 20px;
+	padding: 10px 40px;
+	border-top: 1px solid #ddd;
+	background-color: #f8f8f8;
+	font-size: 14px;
+}
+.m-loginshow .thirdlogin {
+	float: left;
+	width: 160px;
+}
+.m-loginshow .thirdicon {
+	position: relative;
+	display: block;
+	float: left;
+	width: 22px;
+	height: 22px;
+	margin-right: 10px;
+}
+.m-loginshow .thirdicon .iconmask {
+	display: none;
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+.m-loginshow .thirdicon:hover .iconmask {
+	display: block;
+}
+.m-loginshow .gotoreg {
+	display: block;
+	float: right;
+	width: 105px;
+	color: #e31436;
+	line-height: 22px;
+	cursor: pointer;
+}
+.m-loginshow .gotoreg:hover {
+	text-decoration: underline;
+}
+.m-loginshow .arrow {
+	margin-left: 5px;
+	height: 22px;
+	background-position: -899px -402px;
+}
+.m-loginshow .regtop {
+	width: 270px;
+	padding: 0 40px;
+}
+.m-loginshow .regtop .text {
+	color: #e31436;
+	font-weight: bold;
+}
+.m-loginshow .gotologin {
+	float: right;
+	font-size: 12px;
+	cursor: pointer;
+}
+.m-loginshow .gotologin:hover a {
+	text-decoration: underline;
+}
+.m-loginshow .a {
+	color: #210000;
+	margin-left: 2px;
+}
+.m-loginshow .iDialogHead, body .m-loginshow .zcls {
+	display: none;
+}
+.m-loginshow .closeLayer {
+	display: block;
+	position: absolute;
+	right: -15px;
+	top: -15px;
+	padding: 5px;
+	width: 22px;
+	height: 22px;
+	background-position: -754px -431px;
+	z-index: 999;
+}
+.m-loginshow .closeLayer:hover {
+	background-position: -788px -431px;
+}
+.m-loginshow-2 .testtip-1 {
+	display: none;
+}
+.m-loginshow .hovertip .iconfont:before {
+	font-family: "iconfont";
+	font-size: 10px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content: ") 1x,url(";
+}
+.m-loginshow .hovertip:hover .m-tip-wrap {
+	display: block;
+}
+.m-loginshow .hovertip:hover .iconfont:before {
+	content: ");background-image:-webkit-image-set(url(";
+}
+.act-icon-prp {
+	position: absolute;
+	left: 0;
+	top: 6px;
+	width: 14px;
+	height: 14px;
+	background-image: url(//haitao.nos.netease.com/ba93f103-e5c3-4184-9800-930c25486e4d_52_52.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+body {
+	
+}
+.m-result .arrivenotice .icon, .m-result .comments .icon, .m-result .saelsinfo span, .m-search .arrow-down, .m-search .arrow-up, .m-search .more span, .m-search .shoptagicon, .m-search .simplePage a, .m-search .simplePage span, .m-search .soldout, .m-shop .shoptag, .m-skulist .arrow, .m-timerbox .text {
+	background: url(../images/icon-new.6f66e0b.png) -9999px -9999px no-repeat
+}
+.m-search {
+	position: relative;
+	width: 1104px;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 14px
+}
+.m-search .resultwrap {
+	margin-bottom: 6px
+}
+.m-classify-2 .brands h3 {
+	display: inline
+}
+.relatedKeyList {
+	height: auto
+}
+.relatedKeyList .m-reclst {
+	margin: 0;
+	background: #fff;
+	padding: 10px
+}
+.relatedKeyList .m-reclst h3 {
+	display: inline-block;
+	_display: inline
+}
+.relatedKeyList .m-reclst a {
+	color: #333;
+	line-height: 30px;
+	font-size: 13px;
+	padding: 0 7px
+}
+.m-search .correction {
+	width: 1038px;
+	padding: 10px 25px;
+	margin-top: 10px;
+	border: 1px solid #ddd;
+	background-color: #fff8db;
+	line-height: 24px
+}
+.m-search .correction .keytxt {
+	word-wrap: break-word
+}
+.m-search .m-recommend .correction {
+	margin: 10px auto
+}
+.m-search .correction a, .m-search .correction a:hover, .m-search .correction span {
+	color: #e31436
+}
+.m-search .resultinfo {
+	padding: 15px 0 10px;
+	line-height: 22px;
+	
+}
+.m-search .resultinfo a {
+	color: #333
+}
+.m-search .all, .m-search .total {
+	float: left;
+	line-height: 22px;
+	font-size: 12px
+}
+.m-search .gnum {
+	margin-left: 15px;
+	line-height: 24px;
+	color: #999
+}
+.m-search .chosen, .m-search .gnum {
+	height: 22px;
+	display: inline-block;
+	font-size: 12px
+}
+.m-search .chosen {
+	position: relative;
+	float: left;
+	padding: 0 30px 0 10px;
+	border: 1px dotted #e31436;
+	background-color: #fff;
+	color: #6b6b6b;
+	line-height: 22px;
+	cursor: pointer;
+	z-index: 11
+}
+.m-search .chosen .value {
+	color: #e31436
+}
+.m-search .chosen b, .m-search .chosen i {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0 4px;
+	font-weight: 700;
+	font-size: 16px;
+	color: #000;
+	font-family: iconfont
+}
+.m-search .chosen:hover b {
+	background-color: #e31436;
+	color: #fff
+}
+.m-search .cateTag {
+	display: inline-block;
+	position: relative;
+	float: left;
+	height: 22px;
+	font-size: 12px
+}
+.m-search .cateTag .cateBox {
+	display: none;
+	position: absolute;
+	z-index: 10;
+	top: 23px;
+	left: 0;
+	width: auto;
+	padding: 15px 0;
+	max-width: 420px;
+	max-height: 120px;
+	overflow: auto;
+	border: 1px solid #e31436;
+	background-color: #fff
+}
+.m-search .cateTag .cateBox a {
+	height: 22px;
+	width: 80px;
+	float: left;
+	margin: 5px 10px;
+	color: #333;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap
+}
+.m-search .cateTag:hover .cateBox {
+	display: inline-block
+}
+.m-search .cateTag:hover .chosen {
+	border: 1px solid #e31436;
+	border-bottom-color: #fff
+}
+.m-search .cateTag .cateBox a:hover {
+	color: #e31436
+}
+.m-search .cateTag:hover .down {
+	display: none
+}
+.m-search .cateTag:hover .up {
+	display: inline
+}
+.m-search .options {
+	width: 1090px;
+	margin: 0 auto
+}
+.m-search i {
+	color: #e31436
+}
+.m-search .name {
+	float: left;
+	width: 75px;
+	height: 100%;
+	padding-top: 15px;
+	padding-left: 15px;
+	color: #666;
+	font-size: 13px;
+	line-height: 14px;
+	background: #f8f8f8
+}
+.m-search .letter {
+	padding-top: 10px;
+	line-height: 25px
+}
+.m-search .opertaion {
+	background-color: #fff;
+	border: 1px solid #eaeaea
+}
+.m-search .opertaion-1 {
+	margin-bottom: 10px
+}
+.m-search .z-cat3 {
+	border-bottom: 1px dotted #eaeaea
+}
+.m-search .nobottomline {
+	border-bottom: none
+}
+.m-classify {
+	position: relative;
+	background: #f8f8f8
+}
+.m-classify .hdbrands {
+	margin-left: 90px;
+	padding-right: 42px;
+	padding-top: 15px;
+	background-color: #fff
+}
+.m-classify .hdbrands2 {
+	position: relative;
+	height: 28px;
+	overflow: hidden
+}
+.m-classify .autoheight .hdbrands2 {
+	height: auto
+}
+.m-classify .autoheight .hdbrands2 .brands {
+	max-height: 112px;
+	overflow-y: auto;
+	overflow-x: hidden
+}
+.m-classify .line2height .hdbrands2 {
+	height: 55px
+}
+.m-classify .brands {
+	_float: left;
+	margin-left: 15px;
+	line-height: 14px;
+	overflow: auto
+}
+.m-classify .brands a {
+	float: left;
+	display: inline-block;
+	position: relative;
+	padding-right: 24px;
+	margin-bottom: 14px;
+	cursor: pointer;
+	font-size: 13px;
+	text-decoration: none;
+	color: #333;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap
+}
+.m-classify .brands-cate a {
+	width: 130px
+}
+.m-classify .brands a:hover, .m-classify .brands span:hover {
+	color: #e31436
+}
+.m-classify .brands em, .m-classify .brands i, .m-classify .multbtn {
+	display: none
+}
+.m-classify .letterBox {
+	line-height: 13px;
+	padding-top: 10px;
+	background: #fff
+}
+.m-classify .letterBox li {
+	float: left;
+	padding: 5px;
+	margin: 0 5px;
+	cursor: pointer;
+	font-size: 13px;
+	color: #333;
+	text-decoration: none;
+	border: 1px solid transparent
+}
+.m-classify .letterBox li.active, .m-classify .letterBox li:hover {
+	color: #e31436;
+	border: 1px solid #e31436
+}
+.m-classify .multiple .brands a {
+	padding-left: 22px
+}
+.m-classify .multiple em {
+	border: 1px solid #ddd
+}
+.m-classify .multiple .selected i, .m-classify .multiple em {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 6px;
+	width: 12px;
+	height: 12px
+}
+.m-classify .multiple .selected i {
+	font-size: 14px;
+	line-height: 14px;
+	color: #e31436;
+	text-align: center;
+	font-family: iconfont
+}
+.m-classify .multiple .multbtn {
+	display: block;
+	padding-right: 100px;
+	text-align: center
+}
+.m-classify .multbtn span {
+	display: inline-block;
+	width: 58px;
+	height: 28px;
+	margin: 10px;
+	border: 1px solid #ccc;
+	color: #333;
+	line-height: 28px;
+	cursor: pointer
+}
+.m-classify .multbtn .submit {
+	background-color: #e31436;
+	border-color: #e31436;
+	color: #fff
+}
+.m-classify .multbtn .submit:hover {
+	background-color: #f3385f
+}
+.m-classify .multbtn .cancel:hover {
+	border-color: #e31436;
+	color: #e31436
+}
+.m-classify .multbtn .disable, .m-classify .multbtn .disable:hover {
+	background-color: #ccc;
+	border-color: #ccc;
+	cursor: pointer
+}
+.m-classify .brands b {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 4px;
+	font-family: iconfont
+}
+.m-classify .brands .active b {
+	display: block;
+	font-weight: 700
+}
+.m-classify .brands .active, .m-classify .brands .active:hover {
+	background-color: #e31436;
+	color: #fff
+}
+.m-classify .morewrap {
+	position: absolute;
+	top: 15px;
+	right: 0
+}
+.m-classify .more {
+	position: relative;
+	float: right;
+	width: 42px;
+	margin: auto 15px;
+	line-height: 13px;
+	font-size: 13px;
+	cursor: pointer
+}
+.m-classify .more:hover {
+	color: #e31436
+}
+.m-classify .more:hover span {
+	background-position: -50px 0
+}
+.m-classify .more:hover .packup {
+	background-position: -50px -13px
+}
+.m-classify .more span {
+	position: absolute;
+	top: 4px;
+	left: 34px;
+	width: 9px;
+	height: 6px;
+	background-position: 0 0
+}
+.m-classify .more .packup {
+	background-position: -21px 0
+}
+.m-classify .extmore {
+	float: right;
+	width: 50px;
+	height: 20px;
+	border: 1px solid #ccc;
+	background-color: #f8f8f8;
+	text-align: center;
+	letter-spacing: 1px;
+	cursor: pointer
+}
+.m-classify .extmore:hover {
+	background-color: #fff
+}
+.m-classify .extmore span {
+	font-weight: 700
+}
+.m-classify-2 {
+	height: 26px;
+	padding: 10px 0;
+	color: #999
+}
+.m-classify-2 .brands {
+	width: 1050px;
+	height: 26px;
+	overflow: hidden
+}
+.m-classify .brands span:hover {
+	color: #999
+}
+.m-classify-2 .brands a {
+	padding: 0;
+	margin: 0 10px;
+	color: #999
+}
+.m-classify-2 .brands a:hover {
+	text-decoration: underline
+}
+.m-search .m-filter .m-checkbox {
+	margin-left: 10px
+}
+.m-filter {
+	background-color: #fff
+}
+.m-filter a, .m-filter a:hover {
+	color: #333;
+	text-decoration: none
+}
+.m-filter .name {
+	padding-top: 0;
+	line-height: 46px
+}
+.m-filter .hdorder {
+	height: 36px;
+	background-color: #fff
+}
+.m-filter .order dd {
+	float: left;
+	width: 65px;
+	height: 36px;
+	line-height: 36px;
+	margin: -1px;
+	margin-left: 0;
+	font-size: 13px;
+	color: #333;
+	border: 1px solid #eaeaea;
+	cursor: pointer;
+	text-align: center
+}
+.m-filter .order .active {
+	position: relative;
+	border: 1px solid #e31436;
+	color: #e31436
+}
+.m-filter .order .active-1 {
+	text-align: center
+}
+.m-filter .order .active span {
+	display: inline-block
+}
+.m-filter .order .active-1 span {
+	margin-left: 0
+}
+.m-filter .order .arrow-down, .m-filter .order .arrow-up {
+	display: block;
+	position: absolute;
+	top: 13px;
+	right: 10px;
+	width: 8px;
+	height: 10px
+}
+.m-filter .order .arrow-down {
+	background-position: 0 -13px
+}
+.m-filter .order .arrow-up {
+	background-position: -23px -13px
+}
+.m-filter .simplePage {
+	float: right;
+	margin-right: 15px;
+	margin-top: 12px;
+	line-height: 12px
+}
+.m-filter .simplePage a, .m-filter .simplePage span {
+	display: inline-block;
+	float: left;
+	margin-left: 15px
+}
+.m-filter .simplePage .arrow-left {
+	background-position: -20px -188px;
+	width: 8px;
+	height: 13px;
+	cursor: pointer
+}
+.m-filter .simplePage .arrow-left:hover {
+	background-position: -46px -188px
+}
+.m-filter .simplePage .def-left, .m-filter .simplePage .def-left:hover {
+	background-position: 0 -188px;
+	cursor: default
+}
+.m-filter .simplePage .arrow-right {
+	background-position: -21px -210px;
+	width: 8px;
+	height: 13px;
+	cursor: pointer
+}
+.m-filter .simplePage .arrow-right:hover {
+	background-position: -46px -210px
+}
+.m-filter .simplePage .def-right, .m-filter .simplePage .def-right:hover {
+	background-position: 0 -209px;
+	cursor: default
+}
+.m-filter .space {
+	display: inline-block;
+	float: left;
+	height: 30px;
+	margin-left: 10px;
+	border-left: 1px solid #eaeaea
+}
+.m-result {
+	margin-bottom: 6px
+}
+.m-result .goods {
+	position: relative;
+	float: left;
+	width: 262px;
+	height: 387px;
+	margin: 0 7px 14px;
+	_margin: 0 6px 14px;
+	background-color: #fff;
+	font-size: 12px
+}
+.m-result-2 {
+	margin-left: 5px
+}
+.m-result-2 .goods {
+	margin: 0 0 0 -1px;
+	width: 217px;
+	height: 314px;
+	background: transparent
+}
+.m-result .goodswrap {
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	background-color: #fff;
+	border: 1px solid #f3f3f3;
+	border-bottom: none
+}
+.m-result-2 .goodswrap {
+	border: 1px solid #eaeaea
+}
+.m-result .goods .img {
+	position: relative
+}
+.m-result .goods a {
+	display: block;
+	color: #333
+}
+.m-result .img img {
+	display: block;
+	width: 232px;
+	height: 232px;
+	padding: 15px 15px 10px
+}
+.m-result-2 .img img {
+	width: 186px;
+	height: 186px
+}
+.m-result .favbtn {
+	display: none;
+	position: absolute;
+	bottom: 10px;
+	right: 15px;
+	width: 54px;
+	height: 22px;
+	color: #fff;
+	line-height: 22px;
+	text-align: center;
+	cursor: pointer;
+	background-color: #7f7f7f\9;
+	background-color: rgba(0, 0, 0, .5)
+}
+.m-result .favbtn:hover, .m-result .favt {
+	color: #e31436;
+	background-color: #9e9e9e\9;
+	background-color: rgba(0, 0, 0, .35)
+}
+.m-result .favbtn .ic {
+	font-size: 12px
+}
+.m-result .goods .arrivenotice {
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	width: 262px;
+	height: 28px;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	line-height: 28px;
+	background-color: #7f7f7f\9;
+	background-color: rgba(0, 0, 0, .5)
+}
+.m-result .arrivenotice .icon {
+	display: block;
+	position: absolute;
+	top: 8px;
+	left: 96px;
+	width: 8px;
+	height: 14px;
+	background-position: -1px -252px
+}
+.m-result .arrivenotice .text {
+	display: inline-block;
+	padding-left: 14px
+}
+.m-result .goods .commactivityflag {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50px;
+	height: auto
+}
+.m-result .goods .promote {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 72px;
+	height: 48px
+}
+.m-result .goods .discount {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 42px;
+	height: 40px;
+	background-color: #fff;
+	border: 1px solid #666;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+	color: #666;
+	font-weight: 700
+}
+.m-result .goods .desc {
+	width: 234px;
+	padding: 0 14px 11px
+}
+.m-result-2 .goods .desc {
+	width: 188px
+}
+.m-result .activity a:hover, .m-result .skuactivity a:hover {
+	text-decoration: none
+}
+.m-result .activity img, .m-result .skuactivity img {
+	width: 262px;
+	height: 262px;
+	padding: 0
+}
+.m-result .activity .desc, .m-result .skuactivity .desc {
+	padding: 0;
+	width: 100%;
+	text-align: center;
+	color: #fff
+}
+.m-result .activitytitle {
+	font-size: 22px;
+	line-height: 24px
+}
+.m-result .activity .activitytitle {
+	overflow: hidden;
+	height: 24px;
+	padding-top: 15px;
+	margin-bottom: 6px
+}
+.m-result .skuactivity .activitytitle {
+	padding-top: 32px;
+	margin-bottom: 10px
+}
+.m-result .activitydesc {
+	overflow: hidden;
+	font-size: 16px;
+	line-height: 18px;
+	height: 18px
+}
+.m-result .activity .titlewrap {
+	height: 125px;
+	position: relative
+}
+.m-result .tasteicon {
+	float: left;
+	width: 32px;
+	margin-top: 4px;
+	margin-right: 5px
+}
+.m-result .discounticon {
+	position: relative;
+	top: -6px;
+	display: inline-block;
+	margin: 0 2px 10px 1px;
+	font-size: 8px;
+	border: 1px solid red;
+	line-height: 10px;
+	border-radius: 0 2px 2px 2px
+}
+.m-result .discounticon .discountstr {
+	display: block;
+	position: relative;
+	z-index: 2;
+	padding: 0 2px;
+	background: #fff;
+	color: red
+}
+.m-result .discounticon .corner:before {
+	position: absolute;
+	content: ") 1x,url(";
+	top: -1px;
+	left: -3px;
+	border: 4px solid transparent;
+	border-top: 6px solid red
+}
+.m-result .discounticon .corner:after {
+	position: absolute;
+	content: ");background-image:-webkit-image-set(url(";
+	top: 0;
+	left: -1px;
+	border: 2px solid transparent;
+	border-top: 2px solid #fff
+}
+.m-result .skuactivity .titlewrap {
+	height: 169px
+}
+.m-result .activityentry {
+	width: 142px;
+	height: 32px;
+	margin: 15px auto;
+	background-color: rgba(3, 3, 3, .25);
+	border-radius: 2px;
+	line-height: 32px;
+	font-size: 14px
+}
+.m-result .skuactivity .activityentry {
+	margin: 20px auto 30px
+}
+.m-result .goods.activity:hover .goodswrap, .m-result .goods.skuactivity:hover .goodswrap {
+	border-color: transparent
+}
+.m-result .entryicon {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	vertical-align: middle;
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABd0RVh0Q3JlYXRpb24gVGltZQAyMDE2LjYuMTZiOGRuAAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M26LyyjAAAAGBJREFUKJGl0tENgDAIRdG6gbuwECOz0fXD1oBWNPT9NeGEltKaC6CAEWOAupoGXId9Au6xXhfgF/L4hP16ISKSYR1w2i3BNuBrEpzDBK91LL+xNtXyPy5tTmVXt4f+mQPb9HEwAugV4gAAAABJRU5ErkJggg==")
+}
+.m-result .goods .title {
+	height: 40px;
+	margin-top: 5px;
+	overflow: hidden;
+	font-size: 13px;
+	line-height: 20px;
+	word-wrap: break-word;
+	word-break: break-all
+}
+.m-result-2 .goods .title {
+	margin-top: 7px
+}
+.m-result .title:hover {
+	color: #e31436
+}
+.m-result .goods .price {
+	height: 24px;
+	color: #e31436;
+	overflow: hidden;
+	font-size: 0
+}
+.m-result .price .memberprice {
+	display: inline-block;
+	position: relative;
+	top: -1px;
+	margin-left: 5px;
+	line-height: 24px;
+	color: #333;
+	font-size: 14px;
+	font-weight: 700
+}
+.m-result .memberprice .rmb {
+	font-size: 14px;
+	color: #333;
+	font-weight: 400
+}
+.m-result .memberpriceicon {
+	height: 16px;
+	vertical-align: 0;
+	margin-left: 2px
+}
+.m-result .advancebuyicon {
+	height: 16px;
+	vertical-align: 0;
+	margin-left: 5px
+}
+.m-result .price .u-membericon {
+	display: inline-block;
+	position: relative;
+	top: -1px;
+	margin-left: 6px;
+	height: 16px;
+	line-height: 16px;
+	padding: 0 4px 0 1px;
+	border-radius: 0 2px 2px 2px;
+	background-color: #332802;
+	background-image: -webkit-linear-gradient(left, #000, #654f04);
+	background-image: -moz-linear-gradient(left, #000 0, #654f04 100%);
+	background-image: -ms-linear-gradient(left, #000 0, #654f04 100%);
+	background-image: -o-linear-gradient(left, #000 0, #654f04 100%);
+	background-image: -webkit-gradient(linear, left top, right top, from(#000), to(#654f04));
+	background-image: linear-gradient(90deg, #000 0, #654f04);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr= #000, endColorstr= #654f04, GradientType=1)\9
+}
+.m-result .price .u-membericon:before {
+	content: ") 1x,url(";
+	position: absolute;
+	top: 0;
+	left: -5px;
+	width: 0;
+	height: 0;
+	border: 5px solid #000;
+	border-color: #000 transparent transparent
+}
+.m-result .u-membericon .picon {
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	width: 12px;
+	height: 10px
+}
+.m-result .u-membericon .txt {
+	float: left;
+	line-height: 16px;
+	margin-left: 14px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 700
+}
+.m-result .price .cur {
+	display: inline-block;
+	margin-right: 2px;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 24px
+}
+.m-result .price .cur .curtxt {
+	font-size: 15px;
+	margin-right: 3px;
+	vertical-align: 1px
+}
+.m-result .price .newertag {
+	top: -3px;
+	margin-left: 3px;
+	height: 18px;
+	padding: 0 4px;
+	color: #fff;
+	background: #e31436;
+	border-radius: 50px
+}
+.m-result .price .kaolaprice, .m-result .price .newertag {
+	position: relative;
+	display: inline-block;
+	line-height: 18px;
+	font-size: 12px
+}
+.m-result .price .kaolaprice {
+	top: -1px;
+	margin-left: 5px;
+	color: #999
+}
+.m-result-2 .price .cur {
+	font-size: 16px
+}
+.m-result .cur .betext {
+	font-size: 12px;
+	font-weight: 400
+}
+.m-result .combinedLabel, .m-result .price i {
+	font-size: 12px;
+	font-weight: 700
+}
+.m-result .combinedLabel {
+	position: relative;
+	top: -4px;
+	display: inline-block;
+	padding: 0 4px;
+	border: 1px dotted #e31436;
+	color: #e31436;
+	line-height: 18px
+}
+.m-result .unitpriceLabel {
+	display: inline-block;
+	margin-right: 5px;
+	margin-left: 8px;
+	vertical-align: 2px;
+	font-size: 12px;
+	color: #999
+}
+.m-result-2 .combinedLabel {
+	border: 1px solid #e31436;
+	margin-left: 2px
+}
+.m-result-2 .combinedLabel:first-child {
+	margin-left: 0
+}
+.m-result .marketprice {
+	display: inline-block;
+	margin: 0 5px;
+	vertical-align: 2px;
+	color: #999;
+	font-size: 12px
+}
+.m-result-2 .marketprice {
+	margin-left: 5px;
+	float: none;
+	vertical-align: 1px
+}
+.m-result .goods .comments {
+	float: left;
+	position: relative;
+	display: inline-block;
+	padding-left: 20px;
+	color: #333;
+	font-weight: 700
+}
+.m-result-2 .goods .comments {
+	float: right;
+	color: #999;
+	margin-top: 4px;
+	font-weight: 400;
+	font-size: 12px
+}
+.m-result-2 .benefit {
+	color: #e31436;
+	padding: 3px 5px;
+	border: 1px solid #e31436;
+	display: inline-block
+}
+.m-result .comments .icon {
+	display: block;
+	position: absolute;
+	top: 3px;
+	left: 2px;
+	width: 12px;
+	height: 14px;
+	background-position: 0 -230px
+}
+.m-result .goods .proPlace {
+	float: right;
+	max-width: 110px;
+	color: #999
+}
+.m-result .soldout {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 59px;
+	height: 60px;
+	background-position: 0 -98px
+}
+.m-result .activityflag {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	height: 42px
+}
+.m-result .activityflag span {
+	display: inline-block;
+	float: right;
+	width: 36px;
+	height: 18px;
+	line-height: 18px;
+	margin-left: 4px;
+	font-size: 12px;
+	color: #fff;
+	text-align: center
+}
+.m-result .hot {
+	background-color: #ff8385
+}
+.m-result .new {
+	background-color: #bb77f2
+}
+.m-result .goods .ranksTap {
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	width: auto;
+	height: auto;
+	max-width: 75px;
+	max-height: 75px;
+	*width: 75px;
+	*height: 75px;
+	*zoom: 1
+}
+.m-result .danpin {
+	background-color: #f5345e
+}
+.m-result .zhengdan {
+	background-color: #ffa64d
+}
+.m-result .promotion .title {
+	width: 234px
+}
+.m-result .promotion .title, .m-result .promotion h2 {
+	height: 30px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden
+}
+.m-result-2 .promotion .title, .m-result-2 .promotion h2 {
+	white-space: normal;
+	width: 188px;
+	height: 40px;
+	font-size: 12px;
+	line-height: 19px
+}
+.m-result.m-result-2 .goods:hover .promotion .title, .m-result.m-result-2 .goods:hover .promotion h2 {
+	height: 40px
+}
+.m-result .saelsinfo {
+	position: relative;
+	width: 234px;
+	height: 20px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	line-height: 20px;
+	font-size: 13px;
+	color: #e31436
+}
+.m-result .saelsinfo .activity {
+	display: inline-block;
+	height: 16px;
+	line-height: 16px;
+	padding: 0 3px;
+	margin-right: 4px;
+	text-align: center;
+	vertical-align: middle;
+	color: #fff;
+	font-size: 12px;
+	border-radius: 2px
+}
+.m-result .saelsinfo .z-self {
+	height: 14px;
+	line-height: 14px;
+	background-color: #fff;
+	border: 1px solid #e31436;
+	color: #e31436
+}
+.m-result .saelsinfo .z-benefit {
+	background-color: #e31436
+}
+.m-result .goodsinfo {
+	margin-top: 10px
+}
+.m-result .goods:hover .title {
+	min-height: 40px;
+	height: auto
+}
+.m-result .goods:hover .promotion .saelsinfo, .m-result .goods:hover .promotion .title, .m-result .goods:hover .promotion h2 {
+	height: auto;
+	min-height: 20px;
+	white-space: normal
+}

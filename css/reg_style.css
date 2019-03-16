@@ -1,0 +1,257 @@
+/*
+* @Author: hp
+* @Date:   2019-01-19 14:26:01
+* @Last Modified by:   hp
+* @Last Modified time: 2019-01-21 12:20:25
+*/
+
+* @Author: hp
+* @Date:   2019-01-18 09:23:05
+* @Last Modified by:   hp
+* @Last Modified time: 2019-01-19 14:22:25
+*/
+header{
+	/* width:1000px; */
+	height:100px;
+	min-width: 1000px;
+	
+	border-bottom:1px solid #e8e8ea;
+}
+.t_banxin{
+	width:1000px;
+	height: 100px;
+	min-width:1000px;
+	background-color: white;
+	margin:0px auto;
+	/* padding-right: 30px; */
+	overflow: hidden;
+	margin-left:auto;
+	margin-right:auto;
+}
+h1{
+	width: 210px;
+	float: left;
+	margin-top:20px;
+}
+.t_banxin>img{
+	float:right;
+	/* margin-right:  */
+	display: block;
+	margin-right: 38px;
+}
+
+/* 
+main{
+	min-width:1000px;
+	padding-top:0px;
+	height: 580px;
+	background-color:#f8f8f8;
+	background:url('images/background.jpg')
+	border-top: 1px solid #e8e8ea;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+main>.background{
+	height: 520px;
+	background:url('../images/background.jpg') no-repeat -250px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+main .middle{
+	height:580px;
+	width: 1000px;
+	background-color:pink;
+	margin:0px auto;
+	padding-top:21px;
+	overflow:hidden;
+}
+main .m_left{
+	width: 400px;
+	height: 280px;
+	background-color:lightblue;
+}
+main p{
+	display: block;
+	width: 400px;
+	height: 280px;
+	color: lime;
+	z-index: 100;
+	margin-top: 88px;
+	background-color:blue;
+	float: left;
+	
+}
+
+main .m_right{
+	width:350px;
+	height: 538px;
+	background-color:white;
+	float:right;
+	border:1px solid #eaeaea;
+	margin-bottom: 21px;
+	margin:0 auto;
+}
+ */
+.b2{
+	/* background-color:red; */
+	background-position: center;
+}
+
+
+.back{
+	
+	text-align: center;
+	background:url('../images/background.jpg') no-repeat center top #f8f8f8;
+
+	 /* overflow: hidden; */
+	 /* position:relative; */
+}
+/* .back>img{
+	padding-left: 20px;
+	
+} */
+.back>.banxin{
+	/* background-color:lightblue; */
+	width:1000px;
+	height: 580px;
+	/* position: relative; */
+	/* 	top:50%;
+	left: 50%; */
+	/* transform:translate(-50%,-50%); */
+	margin:0 auto;
+	/* padding-top: 300px; */
+
+}
+
+.banxin>.an{	
+	width: 400px;
+	height: 280px;
+	/* background-color:red; */
+	display:block;
+	float: left;
+	margin-top:150px;
+}
+.min_right{
+	width: 352px;
+	height: 540px;
+	background-color:lightblue;
+	float: right;
+	margin-right: 38px;
+	border:1px solid #eaeaea;
+	margin-top: 20px;
+
+}
+.r1{
+	width: 352px;
+	height: 52px;
+	border-bottom:1px solid #ddd;
+	background-color:#f8f8f8;
+}
+/* .min_right .mobile{
+	float: left;
+	width: 175px;
+	text-align: center;
+	cursor: pointer;
+	font-weight: bold;
+}
+.line{
+	position: absolute;
+	top: 17px;
+	left: 175px;
+	width:0px;
+	height: 20px;
+	border-right: 1px solid #ddd;
+}
+.min_right .email{
+	float: left;
+	width: 175px;
+	text-align: center;
+	cursor: pointer;
+	font-weight: bold;
+} */
+.loginway{
+	height: 52px;
+	width: 175px;
+	background-color: orange;
+	text-align: center;
+	float: left;
+	line-height: 52px;
+.r2{
+	width: 270px;
+	height: 395px;
+	background: lightblue;
+	/* margin-top: 19px; */
+	margin:21px auto 30px;
+}
+.r3{
+	width: 352px;
+	height: 40px;
+	border-top:1px solid #ddd;
+	background-color:#f8f8f8;
+}
+
+
+
+
+
+
+
+footer{
+    margin-top: 41px;
+    margin-bottom: 100px;
+    text-align: center;
+    /* font-size: 14px; */
+    color: #666;
+}
+.footer_big{
+	/* background-color: lightblue; */
+	text-align:center;
+	line-height: 14px;
+}
+.footer_big>span{
+	margin:0 20px;
+	font-size:12px;
+	line-height:12px;
+}
+.footer_big>a{
+	font-size: 15px;
+	color:#666666;
+	text-decoration: none;
+	line-height: 12px;
+}
+/* span:nth-of-type(9){
+	border
+} */
+./* footer_big>span{
+	display:block;
+	float: left;
+	text-align: center;
+	font-style: 12px;
+} */
+/*  .footer_big>.text{
+	color:#999999;
+	margin: 20px;
+}  */
+
+
+/* .footer_big>p::before{
+	content: '';
+	text-decoration: none;
+	background: red;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+} 
+*/
+/* footer>.img1{
+	width: 20px;
+	height: 20px;
+	display:inline;
+	position: relative;
+	margin-bottom:-10px
+	top=20px;
+	left=20px
+} */
